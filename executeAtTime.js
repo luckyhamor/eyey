@@ -26,5 +26,5 @@ function executeAtSpecificTime(hour, minute) {
 }
 
 // Replace '2' and '10' with the hour and minute you want to execute the function (e.g., 2:10)
-executeAtSpecificTime(14, 10); // 14:10 (2:10 PM)
+executeAtSpecificTime(14, 32); // 14:10 (2:10 PM)
 
