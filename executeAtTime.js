@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 async function clickElement() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('YOUR_WEBSITE_URL'); // Replace 'YOUR_WEBSITE_URL' with the URL of the webpage containing the element to click
+    await page.goto('https://docs.google.com/forms/u/0/d/e/1FAIpQLScH7GTtlPqxFKxJkuiA0ACy2T2opzgf4pYN3Qr0PWFEE0__4Q/formResponse'); // Replace 'YOUR_WEBSITE_URL' with the URL of the webpage containing the element to click
     await page.waitForSelector('.Fvio9d.MbhUzd'); // Wait for the element with the specified class to appear
     await page.click('.Fvio9d.MbhUzd'); // Click on the element
     await browser.close();
